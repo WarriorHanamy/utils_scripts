@@ -1,0 +1,1 @@
+cat build/**/compile_commands.json | jq -s 'add' > build/compile_commands.json
